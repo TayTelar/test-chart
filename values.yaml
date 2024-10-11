@@ -1,0 +1,10 @@
+
+backend:
+  image: sb2crest/backend-test:latest
+  host: backend-service
+  port: 8080
+
+frontend:
+  image: sb2crest/frontend-test:latest
+  port: 80
+  nodePort: 30080
